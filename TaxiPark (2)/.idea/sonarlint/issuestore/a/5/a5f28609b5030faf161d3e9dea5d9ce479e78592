@@ -1,0 +1,28 @@
+
+R
+java:S4973&"<Strings and Boxed types should be compared using "equals()".(¥ß®’
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µŸ´¯
+c
+java:S3655K"HCall "byId.isPresent()" or "!byId.isEmpty()" before accessing the value.(ûô¯üÿÿÿÿ
+k
+java:S36556"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ã§à¯ÿÿÿÿÿ
+c
+java:S3655A"HCall "byId.isPresent()" or "!byId.isEmpty()" before accessing the value.(ûô¯üÿÿÿÿ
+k
+java:S3655U"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(’Å‡ñÿÿÿÿÿ
+f
+java:S3655m"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(²ì¡¯
+k
+java:S3655l"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(²òÂöüÿÿÿÿ
+f
+java:S3655f"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(òú¯ˆ
+c
+java:S3655^"HCall "byId.isPresent()" or "!byId.isEmpty()" before accessing the value.(ûô¯üÿÿÿÿ
+f
+java:S3655~"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¿œı±
+f
+java:S36552"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(˜şÿ
+U
+java:S16122"?Replace this lambda with method reference 'Order::getDistance'.(˜şÿ
+W
+java:S16126"<Replace this lambda with method reference 'Order::getPrice'.(Ã§à¯ÿÿÿÿÿ

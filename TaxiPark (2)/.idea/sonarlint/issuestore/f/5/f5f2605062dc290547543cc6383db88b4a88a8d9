@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Á¨¯ýÿÿÿÿ
+_
+java:S1874"DRemove this use of "WebSecurityConfigurerAdapter"; it is deprecated.(Ã÷ ´ýÿÿÿÿ
+›
+java:S4601"yReorder the URL patterns from most to less specific, the pattern "/users/change-address" should occurs before "/users/*".(•Éðêÿÿÿÿÿ8ù©Üµí0
+Q
+java:S18741";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(”½Àé

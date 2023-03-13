@@ -1,0 +1,476 @@
+.body{
+    max-width: 1500px;
+    max-height: 60px;;
+}
+
+
+.container{
+    width:100%;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+.header{
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+    padding-top: 10px;
+    border-bottom: 2px solid #999999 ;
+    
+     
+}
+
+.header_inner{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    font-family: NanumGothic;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color:#1FD3EC;
+
+}
+
+.phone_number{
+    position: absolute;
+left: 79.2%;
+right: 1.22%;
+top: 3.07%;
+bottom: 95.79%;
+padding-top: 36px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+color: #999999;
+
+
+
+}
+
+.registration_line{
+    position: absolute;
+width: 305.89px;
+height: 37.79px;
+left: 647.9px;
+top: 105px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+* {box-sizing: border-box}
+
+/* Поля ввода полной ширины */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 22px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #1FD3EC;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 22px;
+  font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 29px;
+
+color: #000000;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.forms{
+    padding-top: 200px;
+    max-width: 500px;
+    margin-left: 500px;
+}
+
+
+.phone_img{
+  margin-left: 900px;
+
+
+
+}
+
+.if_reg{
+
+  margin-left: 80px;
+  font-size: 20px;
+}
+
+.entrance_line{
+    position: absolute;
+width: 305.89px;
+height: 37.79px;
+left: 600.9px;
+top: 105px;
+margin-left: 100px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 36px;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.reg_line{
+    color: #1FD3EC;
+}
+
+
+.colortext {
+    color:#999999;}
+
+
+
+
+.addres_line{
+    margin-left:40px;
+    position: absolute;
+    width: 305.89px;
+    height: 37.79px;
+    left: 647.9px;
+    top: 105px;
+    
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    
+.entrance_line{
+   position: absolute;
+   left: 470px;
+}
+
+
+.exit{
+    background-color: #1FD3EC;
+    position: absolute;
+width: 69px;
+height: 18px;
+left: 1384px;
+top: 23px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+
+color: #000000;
+
+
+  }
+   
+  .exit_text{
+    position: absolute;
+    left:10px;
+    top:5px;
+  }
+
+
+
+
+   .orders{
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    left: 1216px;
+    top: 23px;
+    
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+
+   }
+
+
+   .orders_text{
+    position: absolute;
+    top:5px;
+    left:8px;
+   }
+
+
+   .orders_table{
+    height:300px;
+    width: 600px;
+    position: absolute
+    ;
+    bottom: -15px;
+   }
+
+   .orders_table2{
+    height:300px;
+    width: 600px;
+    position: absolute;
+    left:800px;
+    bottom: -15px;
+   }
+
+   .stroka{
+    opacity: 0;
+   }
+
+
+   .ordersinprocess{
+    position: absolute;
+width: 281px;
+height: 49px;
+left: 163px;
+top: 285px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+color: #000000;
+   }
+
+
+   .endedorders{
+    position: absolute;
+width: 274px;
+height: 51px;
+left: 851px;
+top: 284px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+color: #000000;
+
+
+   }
+
+   .generatereport{
+    position: absolute;
+width: 158px;
+height: 37px;
+left: 1183px;
+top: 278px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 111%;
+
+/* or 18px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+   }
+
+   .report_text{
+    position: absolute;
+    top:10px;
+   }
+
+   .stroka2{
+    opacity: 0;
+   }
+
+
+   .saveme{
+    position: absolute;
+width: 76px;
+height: 30px;
+left: 667px;
+bottom: 220px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 111%;
+
+/* or 18px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+   }
+
+   .saveme2{
+    position: absolute;
+width: 76px;
+height: 30px;
+left: 667px;
+bottom:150px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 111%;
+
+/* or 18px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+   }
+
+   .saveme3{
+    position: absolute;
+width: 76px;
+height: 30px;
+left: 667px;
+bottom:70px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 111%;
+
+/* or 18px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+   }
+
+   .saveme4{
+    position: absolute;
+width: 76px;
+height: 30px;
+left: 667px;
+bottom:10px;
+
+font-family: 'NanumGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 111%;
+
+/* or 18px */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+   }
+
+
+   .savetext{
+    position: absolute;
+    top:8px;
+    left:10px;
+   }
+
+   .savetext2{
+    position: absolute;
+    top:8px;
+    left:10px;
+   }
+
+   .savetext3{
+    position: absolute;
+    top:8px;
+    left:10px;
+   }
+
+   .savetext4{
+    position: absolute;
+    top:8px;
+    left:10px;
+   }
